@@ -4,139 +4,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/PROject-vizit/assets/style.css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/style.css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800&family=Overpass+Mono:wght@300;600&display=swap" rel="stylesheet">
     <title>My CV</title>
 </head>
 <body>
-   <div class="app">
+   <div class="container">
        <!-- header -->
-        <header class="header">
-            <a href="/project-cv/index.html">
-                <span>DAVIDHOME🧑🏼‍🍳</span>
-            </a>
-           
+        <header class="container nav header">
+            <div class="nav-item">
+                <a class="nav-link" href="/index.html">
+                    <span>DAVIDHOME <strong>🧑🏼‍🍳</strong></span>
+                </a>
+            </div>
         </header>
-        <!-- nav -->
-        <nav class="nav-container">
-            <ul class="nav__list">
-                <li class="nav__list-item"><a href="#top"><span class="nav__list-number">01 </span> Top</a></li>
-                <li class="nav__list-item"><a href="#aboutMe"><span class="nav__list-number">02 </span> About me</a></li>
-                <li class="nav__list-item"><a href="#services"><span class="nav__list-number">03 </span> My Services</a></li>
-                <li class="nav__list-item"><a href="#skills"><span class="nav__list-number">04 </span> Skills</a></li>
-                <li class="nav__list-item"><a href="#facts"><span class="nav__list-number">05 </span> facts</a></li>
-                <li class="nav__list-item"><a href="#contact"><span class="nav__list-number">06 </span> contact</a></li>
-            </ul>
-        </nav>
 
-        <!-- main -->
-        <main class="main">
-                <div class="container-info" id="top">
-                    <img class="profile-img" src="https://i.pinimg.com/564x/f8/f1/48/f8f148930e507ba14498e62e0dad5687.jpg" alt="">
-                    <h1 class="profile-name">David <br> Home</h1>
-                    <p>FULLSTACK WEBDEVELOPER</p>
-                </div>
-        </main>
+        <div class="container noidung">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8">
+                    <!-- main -->
+                    <main class="main row">
+                        <div class="container-info col-12 " id="top">
+                            <img class="profile-img" src="https://i.pinimg.com/564x/f8/f1/48/f8f148930e507ba14498e62e0dad5687.jpg" alt="">
+                            <h1 class="profile-name">David <br> Home</h1>
+                            <p>FULLSTACK WEBDEVELOPER</p>
+                        </div>
+                    </main>
 
-        <section class="section-main" id="aboutMe">
-            <h1>ABOUT ME</h1>
-            <article class="section-main__text">
-                <p>I'm freelance webdeveloper lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-            </article>
-        </section>
+                    <section class="section-main row" id="aboutMe">
+                        <div class="col-xl-12">
+                                <h1>ABOUT ME</h1>
+                            <article class="section-main__text">
+                                <p>I'm freelance webdeveloper lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                            </article>
+                        </div>
+                    </section>
 
-        <section class="section-main-services" id="services">
-            <h1>MY SERVICES</h1>
-            <div class="services-list">
-                <div class="services-list-item">
-                    <h1>#1</h1>
-                    <h3>FRONTEND</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quia perspiciatis ipsum libero saepe molestiae, eum fugit nobis exercitationem obcaecati, minus sint eos voluptatum magnam voluptas esse quaerat vitae modi!</p>
+                    <section class="section-main-services" id="services">
+                        <h1>MY SERVICES</h1>
+                        <div class="services-list row">
+                            <div class="services-list-item col-xl-4 col-4">
+                                <h1>#1</h1>
+                                <h3>FRONTEND</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quia perspiciatis ipsum libero saepe molestiae, eum fugit nobis exercitationem obcaecati, minus sint eos voluptatum magnam voluptas esse quaerat vitae modi!</p>
+                            </div>
+                            <div class="services-list-item col-xl-4 col-4">
+                                <h1>#2</h1>
+                                <h3>BACKEND</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolor atque recusandae velit facilis incidunt omnis at facere rem pariatur. Provident commodi minima corporis necessitatibus numquam vel! Nobis, quasi eveniet.</p>
+                            </div>
+                            <div class="services-list-item col-xl-4 col-4">
+                                <h1>#3</h1>
+                                <h3>UI/UX</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla sunt nisi in ipsam beatae magni! Obcaecati architecto rem illum, necessitatibus voluptatibus odio sunt et blanditiis perferendis inventore, distinctio, optio reiciendis.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="main-skills" id="skills">
+                            <h1>SKILLS</h1>
+                            <div class="list-skills row">
+                                <div class="skills-items col-xl-6 col-6">
+                                    <strong>CSS</strong>
+                                    <div class="skills-progress"></div>
+                                
+                                    <strong>HTML</strong>
+                                    <div class="skills-progress"></div>
+                                
+                                    <strong>JAVASRIPT</strong>
+                                    <div class="skills-progress"></div>
+                                </div>
+                                <div class="skills-items col-xl-6 col-6">
+                                    <strong>NODEJS</strong>
+                                    <div class="skills-progress"></div>
+                                
+                                    <strong>REACTJS</strong>
+                                    <div class="skills-progress"></div>
+                                
+                                    <strong>SQL</strong>
+                                    <div class="skills-progress"></div>
+                                </div>
+                            </div>
+                    </section>
+
+                    <section class="main-facts" id="facts">
+                        <h1>FACTS</h1>
+                            <div class="facts-list">
+                                <div class="facts-list-item">
+                                    <h3>COFFEES / PER DAY</h3>
+                                    <span>3</span>
+                                </div>
+                                <div class="facts-list-item">
+                                    <h3>Launched websites</h3>
+                                    <span>64</span>
+                                </div>
+                                <div class="facts-list-item">
+                                    <h3>LINE OF CODE</h3>
+                                    <span>12000</span>
+                                </div>
+                                <div class="facts-list-item">
+                                    <h3>HAPPY CLIENTS</h3>
+                                    <span>160</span>
+                                </div>
+                            </div>
+                    </section>
+
+                    <section class="main-contact" id="contact">
+                        <h1>CONTACT</h1>
+                        <div class="contact-info row">
+                            <div class="contact-info-item col-xl-6 col-md-6 col-6">
+                                    <strong>STAY IN TOUCH</strong>
+                                    <a href="">ducanhnguyen@gmail.com</a><br>
+                                    <a href="">+7-999-857-XX-XX</a>
+                            </div>
+                            <div class="contact-info-item col-xl-6 col-md-6 col-6">
+                                    <strong>SOCIAL</strong>
+                                    <div class="contact-facebook">
+                                        <a href="">FACEBOOK</a>
+                                    </div>
+
+                                    <div class="contact-facebook">
+                                        <a href="">INSTAGRAM</a>
+                                    </div>
+                                
+                                </div>
+                        </div>
+                    </section>
                 </div>
-                <div class="services-list-item">
-                    <h1>#2</h1>
-                    <h3>BACKEND</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolor atque recusandae velit facilis incidunt omnis at facere rem pariatur. Provident commodi minima corporis necessitatibus numquam vel! Nobis, quasi eveniet.</p>
-                </div>
-                <div class="services-list-item">
-                    <h1>#3</h1>
-                    <h3>UI/UX</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla sunt nisi in ipsam beatae magni! Obcaecati architecto rem illum, necessitatibus voluptatibus odio sunt et blanditiis perferendis inventore, distinctio, optio reiciendis.</p>
+                <div class="col-xl-4 col-lg-4">
+                    <!-- nav -->
+                    <nav class="nav-container">
+                        <ul class="nav__list">
+                            <li class="nav__list-item"><a href="#top"><span class="nav__list-number">01 </span> Top</a></li>
+                            <li class="nav__list-item"><a href="#aboutMe"><span class="nav__list-number">02 </span> About me</a></li>
+                            <li class="nav__list-item"><a href="#services"><span class="nav__list-number">03 </span> My Services</a></li>
+                            <li class="nav__list-item"><a href="#skills"><span class="nav__list-number">04 </span> Skills</a></li>
+                            <li class="nav__list-item"><a href="#facts"><span class="nav__list-number">05 </span> facts</a></li>
+                            <li class="nav__list-item"><a href="#contact"><span class="nav__list-number">06 </span> contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </section>
-        <section class="main-skills" id="skills">
-                <h1>SKILLS</h1>
-                <div class="list-skills">
-                    <div class="skills-items">
-                        <strong>CSS</strong>
-                        <div class="skills-progress"></div>
-                    
-                         <strong>HTML</strong>
-                        <div class="skills-progress"></div>
-                       
-                        <strong>JAVASRIPT</strong>
-                        <div class="skills-progress"></div>
-                    </div>
-                    <div class="skills-items">
-                        <strong>NODEJS</strong>
-                        <div class="skills-progress"></div>
-                    
-                         <strong>REACTJS</strong>
-                        <div class="skills-progress"></div>
-                       
-                        <strong>SQL</strong>
-                        <div class="skills-progress"></div>
-                    </div>
-                </div>
-        </section>
-
-        <section class="main-facts" id="facts">
-            <h1>FACTS</h1>
-            <div class="facts-list">
-                <div class="facts-list-item">
-                    <h3>COFFEES / PER DAY</h3>
-                    <span>3</span>
-                </div>
-                <div class="facts-list-item">
-                    <h3>Launched websites</h3>
-                    <span>64</span>
-                </div>
-                <div class="facts-list-item">
-                    <h3>LINE OF CODE</h3>
-                    <span>12000</span>
-                </div>
-                <div class="facts-list-item">
-                    <h3>HAPPY CLIENTS</h3>
-                    <span>160</span>
-                </div>
-            </div>
-        </section>
-
-        <section class="main-contact" id="contact">
-            <h1>CONTACT</h1>
-            <div class="contact-info">
-               <div class="contact-info-item">
-                    <strong>STAY IN TOUCH</strong>
-                    <a href="">ducanhnguyen@gmail.com</a><br>
-                    <a href="">+7-999-857-XX-XX</a>
-               </div>
-               <div class="contact-info-item">
-                    <strong>SOCIAL</strong>
-                    <div class="contact-facebook">
-                        <a href="">FACEBOOK</a>
-                    </div>
-
-                    <div class="contact-facebook">
-                        <a href="">INSTAGRAM</a>
-                    </div>
-                   
-                </div>
-            </div>
-        </section>
-
+        </div>
    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
